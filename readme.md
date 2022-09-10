@@ -1,11 +1,15 @@
-Moons - max acc: over 99%
-Blobs - max acc: over 91%
+## Classification Playground
 
-Both were trained at the same time:
+The goal of the project was to implement a very simple model for the classification of datasets from sklearn. [W&B](wandb.ai) was used to optimize hyperparameters. The model has been implemented using [PyTorch](https://pytorch.org/). I used datasets generated with `make_blobs` and `make_moons` methods. Both were trained at the same time, using only my Notebook with CPU. Times:
 
-Moons - 12min 28s
-Blobs - 11min 56s
+- **Moons** - 12min 28s
+- **Blobs** - 11min 56s
 
-Moons - https://wandb.ai/jmisilo/classification-playground-moons-sweep/sweeps/1ltn88di?workspace=user-jmisilo
+Models' max accuracy on the validation sets:
 
-Blobs - https://wandb.ai/jmisilo/classification-playground-blobs-sweep/sweeps/oh0z6i1i?workspace=user-jmisilo
+- **Moons** - 99.33%
+- **Blobs** - 91.33%
+
+Detailed results of training process:
+
+**SOON...**
