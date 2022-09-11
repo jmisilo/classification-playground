@@ -12,4 +12,5 @@ Models' max accuracy on the validation sets:
 
 Detailed results of training process:
 
-**SOON...**
+- [**Moons runs**](https://wandb.ai/jmisilo/classification-playground-moons-sweep?workspace=user-jmisilo)
+- [**Blobs runs**](https://wandb.ai/jmisilo/classification-playground-blobs-sweep?workspace=user-jmisilo)
